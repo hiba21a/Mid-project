@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>EduPress</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="./assets/images/logo.svg" alt="eduPress-logo" />
+          </div>
+          <div class="navbar-menu">
+            <a href="./index.html" class="navbar-link ">Home</a>
+            <a href="./courses.html" class="navbar-link navbar-link-active">Courses</a>
+            <a href="./blog.html" class="navbar-link">Blog</a>
+            <div class="dropdown navbar-link">
+              <button class="dropbtn">
+                Page
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./faqs.html">FAQs</a>
+                <a href="./contact.html">Contact</a>
+              </div>
+            </div>
+            <a href="#" class="navbar-link">Premium Theme</a>
+          </div>
+          <div class="nav-actions">
+            <a href="./login-register.html">Login / Register</a>
+            <span>
+              <img src="./assets/images/icons/search.svg" alt="search-icon" />
+            </span>
+          </div>
+          <label for="navbar-toggler" class="navbar-toggler">
+            <i class="fas fa-bars"></i>
+          </label>
+          <input
+            type="checkbox"
+            id="navbar-toggler"
+            class="navbar-toggler-check"
+          />
+          <div class="navbar-menu-mobile">
+            <a href="./index.html" class="navbar-link ">Home</a>
+            <a href="./courses.html" class="navbar-link navbar-link-active">Courses</a>
+            <a href="./blog.html" class="navbar-link">Blog</a>
+            <div class="dropdown">
+              <button class="dropbtn navbar-link">
+                Page
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="./faqs.html">FAQs</a>
+                <a href="./contact.html">Contact</a>
+              </div>
+            </div>
+            <a href="#" class="navbar-link">Premium Theme</a>
+            <a href="./login-register.html" class="navbar-link"
+              >Login / Register</a
+            >
+            <div class="sea">
+              <div class="search navbar-link">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="head-page">
+        <div class="container">
+          <p>Homepage</p>
+          <i class="fa-solid fa-chevron-right"></i>
+          <p>Course</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="courses" class="page-mt">
+        <div class="container">
+          <div class="page-header">
+            <h1>All Courses</h1>
+            <div class="actions">
+              <div class="search">
+                <input type="text" placeholder="Search" />
+              </div>
+              <button>
+                <img src="./assets/images/icons/thumbnails.svg" alt="" />
+              </button>
+              <button>
+                <img src="./assets/images/icons/menu-list.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="courses-cards">
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course1.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course2.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course3.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course4.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course5.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+            <div class="course">
+              <span class="course-tag">Photography</span>
+              <img
+                src="./assets/images/course6.png"
+                alt="course-img"
+                class="course-img"
+              />
+              <div class="course-details">
+                <p>by <span>Determined-Poitras</span></p>
+                <h3>Create an LMS Website with LearnPress</h3>
+                <div class="course-info">
+                  <div>
+                    <img src="./assets/images/icons/clock.svg" alt="" />
+                    <span>2Weeks</span>
+                  </div>
+                  <div>
+                    <img src="./assets/images/icons/hat.svg" alt="" />
+                    <span>156 Students</span>
+                  </div>
+                </div>
+                <div class="course-footer">
+                  <p><del>$29.0</del> <span>Free</span></p>
+                  <a href="#">View more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="number-page section-mt">
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-mt">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="col">
+            <img src="./assets/images/logo.svg" alt="" class="logo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col">
+            <h4>GET HELP</h4>
+            <ul>
+              <li><a href="./contact.html">Contact Us</a></li>
+              <li><a href="./blog.html">Latest Articles</a></li>
+              <li><a href="./faqs.html">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>PROGRAMS</h4>
+            <ul>
+              <li><a href="#">Art & Design</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">IT & Software</a></li>
+              <li><a href="#">Languages</a></li>
+              <li><a href="#">Programming</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>CONTACT US</h4>
+            <div class="contact-info">
+              <p>
+                Address: 2321 New Design Str, Lorem <br />
+                Ipsum10 Hudson Yards, USA
+              </p>
+              <div>
+                <p>Tel: + (123) 2500-567-8988</p>
+                <p>Mail: supportlms@gmail.com</p>
+              </div>
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer-bottom">
+          Copyright © 2024 LearnPress LMS | Powered by ThimPress
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+      integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
